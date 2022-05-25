@@ -1,0 +1,36 @@
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+header .logo_area .logo,.logo_area .srh_btn::after,.logo_area .link_start::after,
+.logo_area .link_junior::after,.logo_area .link_junior:hover::after,
+.logo_area .link_bin::after,.logo_area .link_bin:hover::after,
+header .gnb_area .gnb li a.mail::before,header .gnb_area .gnb li a.shop::after,
+header .gnb_area .gnb li a.shoplive::after,header .gnb_area .gnb li a.tv::before,
+.sc_news .issue_wrap .media::after,.sc_news .group_title .title::before,
+.sc_news .group_title .title::after,.sc_news .set_wrap .ic_list,
+.sc_news .set_wrap .ic_tile,.sc_news .set_wrap .ic_set,
+.sc_themepost .filter_wrap a::before,.sc_themepost .list .thumb .play_btn,
+.sc_themepost .group_more .plus_btn,.sc_login .link_login i,
+.sc_login .link_wrap .link_id::before,.sc_login .link_wrap .link_find::before,
+.sc_login .link_wrap .link_join::before,.navi .btn.prev::before,
+.navi .btn.next::before,
+.ft_notice .allservice::after{
+    background-image: url(../images/sp_bg.png);
+    background-repeat: no-repeat;
+    background-size: 457px;
+}
+
+.sc_shop .group_title .title::after,.sc_shop .group_title .title::before,
+.sc_shop .page_wrap .navi .btn.prev::before,
+.sc_shop .page_wrap .navi .btn.next::before,
+.sc_shop .control_box .btn.prev::before,
+.sc_shop .control_box .btn.next::before{
+    background-image: url(../images/sp_bg_2.png);
+    background-size: 107px 78px;
+    background-repeat: no-repeat;
+}
